@@ -1,0 +1,39 @@
+{
+  "schema_version": "2",
+  "source_info": {
+    "name": "家悦K歌应用源",
+    "author": "chuanwen168",
+    "homepage": "https://github.com/chuanwen168/jiayuektv-go",
+    "description": "家悦K歌 fnOS 应用源"
+  },
+  "apps": {
+    "jiayuektv": {
+      "display_name": "家悦K歌",
+      "desc": "把飞牛 NAS 变成家庭 KTV：电视大屏播放、平板点歌、手机遥控，多房间独立点歌。",
+      "platform": ["x86"],
+      "categories": ["影音娱乐"],
+      "icon_url": "./jiayuektv/ICON.PNG",
+      "readme_url": "./jiayuektv/README.md",
+      "bug_report_url": "https://github.com/chuanwen168/jiayuektv-go/issues",
+      "maintainer": "chuanwen168",
+      "maintainer_url": "https://github.com/chuanwen168/jiayuektv-go",
+      "run_as": "package",
+      "install_type": "",
+      "is_docker": false,
+      "service_port": "8086",
+      "releases": {
+        "1.1.2": {
+          "changelog": "新增独立房间切换密码（默认 8888）；多房间管理标签页；修复手机扫码显示房间名称；PAD 浅色主题适配；转码并发最高 15 路；关闭调试日志。",
+          "updated_at": "2026-10-30T16:00:00+08:00",
+          "packages": {
+            "x86": {
+              "download_url": "./jiayuektv/jiayuektv.fpk",
+              "sha256": "A0D4472CA0EA2B95D72F2E88F5A064800ECBA932548B95597AB072496974EA31",
+              "size": 10568648
+            }
+          }
+        }
+      }
+    }
+  }
+}
